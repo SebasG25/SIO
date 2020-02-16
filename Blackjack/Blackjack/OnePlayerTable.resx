@@ -1,0 +1,1254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="pnlPlayerFirstCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblPFCT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblPFCT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblPFCT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 59</value>
+  </data>
+  <data name="lblPFCT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 29</value>
+  </data>
+  <data name="lblPFCT.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblPFCT.Text" xml:space="preserve">
+    <value>♣</value>
+  </data>
+  <data name="&gt;&gt;lblPFCT.Name" xml:space="preserve">
+    <value>lblPFCT</value>
+  </data>
+  <data name="&gt;&gt;lblPFCT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPFCT.Parent" xml:space="preserve">
+    <value>pnlPlayerFirstCard</value>
+  </data>
+  <data name="&gt;&gt;lblPFCT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPFCS2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPFCS2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblPFCS2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 115</value>
+  </data>
+  <data name="lblPFCS2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="lblPFCS2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblPFCS2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPFCS2.Name" xml:space="preserve">
+    <value>lblPFCS2</value>
+  </data>
+  <data name="&gt;&gt;lblPFCS2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPFCS2.Parent" xml:space="preserve">
+    <value>pnlPlayerFirstCard</value>
+  </data>
+  <data name="&gt;&gt;lblPFCS2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPFCS1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPFCS1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblPFCS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 7</value>
+  </data>
+  <data name="lblPFCS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="lblPFCS1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblPFCS1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPFCS1.Name" xml:space="preserve">
+    <value>lblPFCS1</value>
+  </data>
+  <data name="&gt;&gt;lblPFCS1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPFCS1.Parent" xml:space="preserve">
+    <value>pnlPlayerFirstCard</value>
+  </data>
+  <data name="&gt;&gt;lblPFCS1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlPlayerFirstCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 43</value>
+  </data>
+  <data name="pnlPlayerFirstCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 147</value>
+  </data>
+  <data name="pnlPlayerFirstCard.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerFirstCard.Name" xml:space="preserve">
+    <value>pnlPlayerFirstCard</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerFirstCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerFirstCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerFirstCard.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <metadata name="pnlPlayerSecondCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblPSCT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPSCT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblPSCT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 59</value>
+  </data>
+  <data name="lblPSCT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 29</value>
+  </data>
+  <data name="lblPSCT.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblPSCT.Text" xml:space="preserve">
+    <value>♣</value>
+  </data>
+  <data name="&gt;&gt;lblPSCT.Name" xml:space="preserve">
+    <value>lblPSCT</value>
+  </data>
+  <data name="&gt;&gt;lblPSCT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPSCT.Parent" xml:space="preserve">
+    <value>pnlPlayerSecondCard</value>
+  </data>
+  <data name="&gt;&gt;lblPSCT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPSCS2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPSCS2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblPSCS2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 115</value>
+  </data>
+  <data name="lblPSCS2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="lblPSCS2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblPSCS2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPSCS2.Name" xml:space="preserve">
+    <value>lblPSCS2</value>
+  </data>
+  <data name="&gt;&gt;lblPSCS2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPSCS2.Parent" xml:space="preserve">
+    <value>pnlPlayerSecondCard</value>
+  </data>
+  <data name="&gt;&gt;lblPSCS2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPSCS1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPSCS1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblPSCS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 7</value>
+  </data>
+  <data name="lblPSCS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="lblPSCS1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblPSCS1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPSCS1.Name" xml:space="preserve">
+    <value>lblPSCS1</value>
+  </data>
+  <data name="&gt;&gt;lblPSCS1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPSCS1.Parent" xml:space="preserve">
+    <value>pnlPlayerSecondCard</value>
+  </data>
+  <data name="&gt;&gt;lblPSCS1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlPlayerSecondCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 43</value>
+  </data>
+  <data name="pnlPlayerSecondCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 147</value>
+  </data>
+  <data name="pnlPlayerSecondCard.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerSecondCard.Name" xml:space="preserve">
+    <value>pnlPlayerSecondCard</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerSecondCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerSecondCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerSecondCard.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <metadata name="pnlComputerFirstCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblCFCT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCFCT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblCFCT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 57</value>
+  </data>
+  <data name="lblCFCT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 29</value>
+  </data>
+  <data name="lblCFCT.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblCFCT.Text" xml:space="preserve">
+    <value>♣</value>
+  </data>
+  <data name="&gt;&gt;lblCFCT.Name" xml:space="preserve">
+    <value>lblCFCT</value>
+  </data>
+  <data name="&gt;&gt;lblCFCT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCFCT.Parent" xml:space="preserve">
+    <value>pnlComputerFirstCard</value>
+  </data>
+  <data name="&gt;&gt;lblCFCT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCFCS2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCFCS2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblCFCS2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 113</value>
+  </data>
+  <data name="lblCFCS2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="lblCFCS2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblCFCS2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCFCS2.Name" xml:space="preserve">
+    <value>lblCFCS2</value>
+  </data>
+  <data name="&gt;&gt;lblCFCS2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCFCS2.Parent" xml:space="preserve">
+    <value>pnlComputerFirstCard</value>
+  </data>
+  <data name="&gt;&gt;lblCFCS2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCFCS1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCFCS1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblCFCS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 5</value>
+  </data>
+  <data name="lblCFCS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="lblCFCS1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblCFCS1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCFCS1.Name" xml:space="preserve">
+    <value>lblCFCS1</value>
+  </data>
+  <data name="&gt;&gt;lblCFCS1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCFCS1.Parent" xml:space="preserve">
+    <value>pnlComputerFirstCard</value>
+  </data>
+  <data name="&gt;&gt;lblCFCS1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlComputerFirstCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 334</value>
+  </data>
+  <data name="pnlComputerFirstCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 147</value>
+  </data>
+  <data name="pnlComputerFirstCard.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerFirstCard.Name" xml:space="preserve">
+    <value>pnlComputerFirstCard</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerFirstCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerFirstCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerFirstCard.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <metadata name="pnlComputerSecondCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblCSCT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCSCT.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblCSCT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>46, 57</value>
+  </data>
+  <data name="lblCSCT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 29</value>
+  </data>
+  <data name="lblCSCT.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblCSCT.Text" xml:space="preserve">
+    <value>♣</value>
+  </data>
+  <data name="&gt;&gt;lblCSCT.Name" xml:space="preserve">
+    <value>lblCSCT</value>
+  </data>
+  <data name="&gt;&gt;lblCSCT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCSCT.Parent" xml:space="preserve">
+    <value>pnlComputerSecondCard</value>
+  </data>
+  <data name="&gt;&gt;lblCSCT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCSCS2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCSCS2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblCSCS2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>91, 113</value>
+  </data>
+  <data name="lblCSCS2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="lblCSCS2.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblCSCS2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCSCS2.Name" xml:space="preserve">
+    <value>lblCSCS2</value>
+  </data>
+  <data name="&gt;&gt;lblCSCS2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCSCS2.Parent" xml:space="preserve">
+    <value>pnlComputerSecondCard</value>
+  </data>
+  <data name="&gt;&gt;lblCSCS2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCSCS1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCSCS1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 13.8pt</value>
+  </data>
+  <data name="lblCSCS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 5</value>
+  </data>
+  <data name="lblCSCS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 29</value>
+  </data>
+  <data name="lblCSCS1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblCSCS1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCSCS1.Name" xml:space="preserve">
+    <value>lblCSCS1</value>
+  </data>
+  <data name="&gt;&gt;lblCSCS1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCSCS1.Parent" xml:space="preserve">
+    <value>pnlComputerSecondCard</value>
+  </data>
+  <data name="&gt;&gt;lblCSCS1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlComputerSecondCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>224, 334</value>
+  </data>
+  <data name="pnlComputerSecondCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 147</value>
+  </data>
+  <data name="pnlComputerSecondCard.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerSecondCard.Name" xml:space="preserve">
+    <value>pnlComputerSecondCard</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerSecondCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerSecondCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerSecondCard.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <metadata name="pnlPlayerExtraCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblPECT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPECT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 48</value>
+  </data>
+  <data name="lblPECT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 17</value>
+  </data>
+  <data name="lblPECT.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblPECT.Text" xml:space="preserve">
+    <value>♣</value>
+  </data>
+  <data name="&gt;&gt;lblPECT.Name" xml:space="preserve">
+    <value>lblPECT</value>
+  </data>
+  <data name="&gt;&gt;lblPECT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPECT.Parent" xml:space="preserve">
+    <value>pnlPlayerExtraCard</value>
+  </data>
+  <data name="&gt;&gt;lblPECT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPECS2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPECS2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 91</value>
+  </data>
+  <data name="lblPECS2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="lblPECS2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblPECS2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPECS2.Name" xml:space="preserve">
+    <value>lblPECS2</value>
+  </data>
+  <data name="&gt;&gt;lblPECS2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPECS2.Parent" xml:space="preserve">
+    <value>pnlPlayerExtraCard</value>
+  </data>
+  <data name="&gt;&gt;lblPECS2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPECS1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPECS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="lblPECS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="lblPECS1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblPECS1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPECS1.Name" xml:space="preserve">
+    <value>lblPECS1</value>
+  </data>
+  <data name="&gt;&gt;lblPECS1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPECS1.Parent" xml:space="preserve">
+    <value>pnlPlayerExtraCard</value>
+  </data>
+  <data name="&gt;&gt;lblPECS1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlPlayerExtraCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 77</value>
+  </data>
+  <data name="pnlPlayerExtraCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 113</value>
+  </data>
+  <data name="pnlPlayerExtraCard.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerExtraCard.Name" xml:space="preserve">
+    <value>pnlPlayerExtraCard</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerExtraCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerExtraCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerExtraCard.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <metadata name="pnlComputerExtraCard.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblCECT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCECT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 48</value>
+  </data>
+  <data name="lblCECT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 17</value>
+  </data>
+  <data name="lblCECT.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblCECT.Text" xml:space="preserve">
+    <value>♣</value>
+  </data>
+  <data name="&gt;&gt;lblCECT.Name" xml:space="preserve">
+    <value>lblCECT</value>
+  </data>
+  <data name="&gt;&gt;lblCECT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCECT.Parent" xml:space="preserve">
+    <value>pnlComputerExtraCard</value>
+  </data>
+  <data name="&gt;&gt;lblCECT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblCECS2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCECS2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>64, 90</value>
+  </data>
+  <data name="lblCECS2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="lblCECS2.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblCECS2.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCECS2.Name" xml:space="preserve">
+    <value>lblCECS2</value>
+  </data>
+  <data name="&gt;&gt;lblCECS2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCECS2.Parent" xml:space="preserve">
+    <value>pnlComputerExtraCard</value>
+  </data>
+  <data name="&gt;&gt;lblCECS2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCECS1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCECS1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 4</value>
+  </data>
+  <data name="lblCECS1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 17</value>
+  </data>
+  <data name="lblCECS1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblCECS1.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblCECS1.Name" xml:space="preserve">
+    <value>lblCECS1</value>
+  </data>
+  <data name="&gt;&gt;lblCECS1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCECS1.Parent" xml:space="preserve">
+    <value>pnlComputerExtraCard</value>
+  </data>
+  <data name="&gt;&gt;lblCECS1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pnlComputerExtraCard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 334</value>
+  </data>
+  <data name="pnlComputerExtraCard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 113</value>
+  </data>
+  <data name="pnlComputerExtraCard.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerExtraCard.Name" xml:space="preserve">
+    <value>pnlComputerExtraCard</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerExtraCard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerExtraCard.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerExtraCard.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <metadata name="pnlPlayerScore.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblPlayerScore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayerScore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22.2pt</value>
+  </data>
+  <data name="lblPlayerScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 37</value>
+  </data>
+  <data name="lblPlayerScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 44</value>
+  </data>
+  <data name="lblPlayerScore.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblPlayerScore.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerScore.Name" xml:space="preserve">
+    <value>lblPlayerScore</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerScore.Parent" xml:space="preserve">
+    <value>pnlPlayerScore</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerScore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlPlayerScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 77</value>
+  </data>
+  <data name="pnlPlayerScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 113</value>
+  </data>
+  <data name="pnlPlayerScore.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerScore.Name" xml:space="preserve">
+    <value>pnlPlayerScore</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerScore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlPlayerScore.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <metadata name="pnlComputerScore.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblComputerScore.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblComputerScore.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22.2pt</value>
+  </data>
+  <data name="lblComputerScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 37</value>
+  </data>
+  <data name="lblComputerScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 44</value>
+  </data>
+  <data name="lblComputerScore.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblComputerScore.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblComputerScore.Name" xml:space="preserve">
+    <value>lblComputerScore</value>
+  </data>
+  <data name="&gt;&gt;lblComputerScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblComputerScore.Parent" xml:space="preserve">
+    <value>pnlComputerScore</value>
+  </data>
+  <data name="&gt;&gt;lblComputerScore.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pnlComputerScore.Location" type="System.Drawing.Point, System.Drawing">
+    <value>506, 334</value>
+  </data>
+  <data name="pnlComputerScore.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 113</value>
+  </data>
+  <data name="pnlComputerScore.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerScore.Name" xml:space="preserve">
+    <value>pnlComputerScore</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerScore.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerScore.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pnlComputerScore.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <metadata name="lblPlayerName.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblPlayerName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayerName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblPlayerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 16</value>
+  </data>
+  <data name="lblPlayerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 23</value>
+  </data>
+  <data name="lblPlayerName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblPlayerName.Text" xml:space="preserve">
+    <value>Player Name</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerName.Name" xml:space="preserve">
+    <value>lblPlayerName</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <metadata name="lblComputerName.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="lblComputerName.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblComputerName.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 10.2pt, style=Bold</value>
+  </data>
+  <data name="lblComputerName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 494</value>
+  </data>
+  <data name="lblComputerName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 23</value>
+  </data>
+  <data name="lblComputerName.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblComputerName.Text" xml:space="preserve">
+    <value>Computer Name</value>
+  </data>
+  <data name="&gt;&gt;lblComputerName.Name" xml:space="preserve">
+    <value>lblComputerName</value>
+  </data>
+  <data name="&gt;&gt;lblComputerName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblComputerName.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblComputerName.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <metadata name="txtPlayerBet.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="txtPlayerBet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 12pt</value>
+  </data>
+  <data name="txtPlayerBet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>865, 168</value>
+  </data>
+  <data name="txtPlayerBet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 34</value>
+  </data>
+  <data name="txtPlayerBet.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtPlayerBet.Text" xml:space="preserve">
+    <value>Bet</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="txtPlayerBet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtPlayerBet.Name" xml:space="preserve">
+    <value>txtPlayerBet</value>
+  </data>
+  <data name="&gt;&gt;txtPlayerBet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPlayerBet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtPlayerBet.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <metadata name="txtComputerBet.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="txtComputerBet.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtComputerBet.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 12pt</value>
+  </data>
+  <data name="txtComputerBet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>865, 334</value>
+  </data>
+  <data name="txtComputerBet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 34</value>
+  </data>
+  <data name="txtComputerBet.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtComputerBet.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;txtComputerBet.Name" xml:space="preserve">
+    <value>txtComputerBet</value>
+  </data>
+  <data name="&gt;&gt;txtComputerBet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtComputerBet.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtComputerBet.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <metadata name="btnBegin.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnBegin.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnBegin.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnBegin.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="btnBegin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>865, 233</value>
+  </data>
+  <data name="btnBegin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 60</value>
+  </data>
+  <data name="btnBegin.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnBegin.Text" xml:space="preserve">
+    <value>Begin</value>
+  </data>
+  <data name="&gt;&gt;btnBegin.Name" xml:space="preserve">
+    <value>btnBegin</value>
+  </data>
+  <data name="&gt;&gt;btnBegin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBegin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBegin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <metadata name="btnPass.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnPass.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnPass.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnPass.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="btnPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 233</value>
+  </data>
+  <data name="btnPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 60</value>
+  </data>
+  <data name="btnPass.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnPass.Text" xml:space="preserve">
+    <value>Pass</value>
+  </data>
+  <data name="&gt;&gt;btnPass.Name" xml:space="preserve">
+    <value>btnPass</value>
+  </data>
+  <data name="&gt;&gt;btnPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPass.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPass.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="btnAsk.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnAsk.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnAsk.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAsk.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 10.2pt</value>
+  </data>
+  <data name="btnAsk.Location" type="System.Drawing.Point, System.Drawing">
+    <value>379, 233</value>
+  </data>
+  <data name="btnAsk.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 60</value>
+  </data>
+  <data name="btnAsk.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnAsk.Text" xml:space="preserve">
+    <value>Ask</value>
+  </data>
+  <data name="&gt;&gt;btnAsk.Name" xml:space="preserve">
+    <value>btnAsk</value>
+  </data>
+  <data name="&gt;&gt;btnAsk.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAsk.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnAsk.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblTurn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTurn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 19.8000011pt</value>
+  </data>
+  <data name="lblTurn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>372, 16</value>
+  </data>
+  <data name="lblTurn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 46</value>
+  </data>
+  <data name="lblTurn.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblTurn.Text" xml:space="preserve">
+    <value>YOUR TURN</value>
+  </data>
+  <data name="lblTurn.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblTurn.Name" xml:space="preserve">
+    <value>lblTurn</value>
+  </data>
+  <data name="&gt;&gt;lblTurn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTurn.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblTurn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblComputerTotalMoney.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblComputerTotalMoney.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 12pt, style=Bold</value>
+  </data>
+  <data name="lblComputerTotalMoney.Location" type="System.Drawing.Point, System.Drawing">
+    <value>927, 387</value>
+  </data>
+  <data name="lblComputerTotalMoney.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 27</value>
+  </data>
+  <data name="lblComputerTotalMoney.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblComputerTotalMoney.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblComputerTotalMoney.Name" xml:space="preserve">
+    <value>lblComputerTotalMoney</value>
+  </data>
+  <data name="&gt;&gt;lblComputerTotalMoney.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblComputerTotalMoney.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblComputerTotalMoney.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPlayerTotalMoney.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPlayerTotalMoney.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Palatino Linotype, 12pt, style=Bold</value>
+  </data>
+  <data name="lblPlayerTotalMoney.Location" type="System.Drawing.Point, System.Drawing">
+    <value>927, 115</value>
+  </data>
+  <data name="lblPlayerTotalMoney.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 27</value>
+  </data>
+  <data name="lblPlayerTotalMoney.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblPlayerTotalMoney.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerTotalMoney.Name" xml:space="preserve">
+    <value>lblPlayerTotalMoney</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerTotalMoney.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerTotalMoney.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblPlayerTotalMoney.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1093, 533</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>One Player Table</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmOnePlayerTable</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
